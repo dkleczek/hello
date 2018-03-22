@@ -20,3 +20,17 @@ function deviceInfo() {
 	navigator.notification.alert(info);
 	
 }
+
+function personalInfo() {
+
+	info =  'Hi, it is some information about me!' + '\n' +
+			'=====' + '\n' +
+			'Moje imię to: '     + 'Damian'     + '\n' + 
+			'Moje nazwisko to: '  + 'Kłeczek' + '\n' + 
+			'Mam lat:' + '24' + '\n' + 
+			'Uczęszczam do: '     + 'Uniwersytet Ekonomiczny w Krakowie ' + '\n';
+	
+
+	navigator.notification.alert(info);
+	
+}
